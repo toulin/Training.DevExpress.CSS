@@ -17,6 +17,9 @@ namespace TrainingWinformCss.UserControls
 {
     public partial class MyButtonByCSS : DevExpress.XtraEditors.XtraUserControl
     {
+        /// <summary>
+        /// 目前設定值
+        /// </summary>
         private Settings MySettings;
 
         public MyButtonByCSS(Settings settings)
